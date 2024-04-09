@@ -1,0 +1,6 @@
+env = getgenv()
+
+env.writefile = nil
+env.readfile = nil
+wait(0.1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
